@@ -1,0 +1,50 @@
+name: audiobook_listener
+description: "Reproductor personal de audiolibros .m4b, offline."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Audio
+  audio_service: ^0.18.19
+  audio_session: ^0.2.4
+  just_audio: ^0.10.6
+  just_audio_media_kit: ^2.1.0 # Windows only (registered on desktop)
+  media_kit_libs_windows_audio: ^1.0.9
+
+  # State
+  flutter_riverpod: ^3.4.3
+
+  # Persistence
+  drift: ^2.35.3
+  drift_flutter: ^0.3.1
+  path_provider: ^2.1.6
+  shared_preferences: ^2.5.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  build_runner: ^2.17.1
+  drift_dev: ^2.35.2
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/inter/Inter-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/inter/Inter-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/inter/Inter-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/inter/Inter-Bold.ttf
+          weight: 700

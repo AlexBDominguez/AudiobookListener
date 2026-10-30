@@ -1,0 +1,28 @@
+;FFMETADATA1
+title=Libro de prueba
+artist=Autora Ejemplo
+album_artist=Autora Ejemplo
+album=Libro de prueba
+composer=Narrador Ejemplo
+date=2024
+genre=Audiolibro
+comment=Comentario de prueba
+description=Descripción con acentos: canción, pingüino, ñandú.
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=30000
+title=Capítulo uno
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=30000
+END=65000
+title=Capítulo dos: el viaje
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=65000
+END=90000
+title=Epílogo
